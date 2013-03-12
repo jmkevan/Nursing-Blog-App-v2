@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">q4WaD6lom1lylQBYgzeXk1ouvHHne8Mu</property>
+    <property name="acs-oauth-key-production" type="string">88j5CyQZTkL3oLEx5Xh1VPWI42hWCfsz</property>
+    <property name="acs-api-key-production" type="string">gPWkwhW9SW0QUNFWAIlYyFghIMO3Qf4k</property>
+    <property name="acs-oauth-secret-development" type="string">qO8F4cDNBiR0qXn4s055wIWQVc2Aq2Qw</property>
+    <property name="acs-oauth-key-development" type="string">5fmO6LHCTh37zNQfQ5vhHIrUht0bYEB3</property>
+    <property name="acs-api-key-development" type="string">bwtbJU2tZJtIBOeoEPvp5uXttfLf6S8M</property>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.3.v20120915120319</sdk-version>
+    <id>edu.hawaii.sondh</id>
+    <name>Nursing Blog App v2</name>
+    <version>1.0</version>
+    <publisher>jonathankevan</publisher>
+    <url>http://</url>
+    <description>University of Hawaii SONDH mobile application</description>
+    <copyright>2013 by jonathankevan</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>d4387f16-e867-4859-8d4b-5478b9891941</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules/>
+</ti:app>

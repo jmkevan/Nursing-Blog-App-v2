@@ -1,0 +1,13 @@
+Logfile initialized
+[INFO] logfile = /Users/jonathankevan/Documents/Titanium_Studio_Workspace/Dept. Of Nursing/build.log
+[DEBUG] /Users/jonathankevan/Library/Application Support/Titanium/mobilesdk/osx/2.1.1.GA/android/builder.py simulator Dept. Of Nursing /Users/jonathankevan/android-sdk /Users/jonathankevan/Documents/Titanium_Studio_Workspace/Dept. Of Nursing edu.hawaii.nursing 26 WVGA854 
+[INFO] Building Dept. Of Nursing for Android ... one moment
+[INFO] Titanium SDK version: 2.1.1 (07/27/12 14:01 0fd84a2)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[TRACE] adb devices returned 0 devices/emulators
+[ERROR] Timed out waiting for emulator to be ready, you may need to close the emulator and try again
