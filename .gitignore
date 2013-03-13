@@ -1,1 +1,7 @@
-tmp
+# Build folder and log file
+build/
+build.log
+.settings/*
+
+# For Mac
+.DS_Store
